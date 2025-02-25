@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Razones Para Quererte ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-toggle">
+        <div class="hamburger"></div>
+    </div>
+    
+    <nav class="menu">
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="letter.html">Carta</a></li>
+        </ul>
+    </nav>
+
+    <div class="petals"></div>
+
+    <section id="home" class="active">
+        
+        </div>
+        <h1>100 Razones Para Quererte</h1>
+        <p class="subtitle">Porque cada día encuentro más razones para quererte en mi vida...</p>
+        <button class="start-button" onclick="navigateTo('reasons')">Comenzar ❤️</button>
+    </section>
+
+    <section id="reasons">
+        <div class="reasons-container">
+            <div id="reason-display">
+                <h2>Razón #<span id="reason-number">1</span></h2>
+                <p id="current-reason"></p>
+                <div class="navigation-buttons">
+                    <button onclick="previousReason()">❮ Anterior</button>
+                    <button onclick="nextReason()">Siguiente ❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
